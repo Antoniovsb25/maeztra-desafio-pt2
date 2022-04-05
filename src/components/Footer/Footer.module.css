@@ -1,0 +1,31 @@
+.infos {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type:none;
+}
+
+.logos {
+    height: 60px;
+    background-color: #000;
+    display: flex;
+    padding: 20px;
+}
+.socialMedia img, .cards img, .creators img {
+    margin: 10px;
+}
+
+.creators {
+    display: flex;
+}
+
+.vtex, .maeztraFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.vtex span, .maeztraFooter span {
+    color: #FFFFFF;
+}

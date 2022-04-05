@@ -1,0 +1,10 @@
+.infoCard {
+    display: flex;
+    margin-bottom: 60px;
+    max-width: 1580px;
+}
+
+.text {
+    margin-right: 64px;
+    margin-left: 24px;
+}

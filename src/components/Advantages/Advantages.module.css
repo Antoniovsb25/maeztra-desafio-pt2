@@ -1,0 +1,27 @@
+.advantages {
+    margin-bottom: 25px;
+}
+.cardsWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    padding: 14px 27px;
+    margin: 5px;
+}
+.cardTitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.textsWrapper {
+    display: flex;
+    flex-direction: column;
+}

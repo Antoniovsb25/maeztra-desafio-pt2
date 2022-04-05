@@ -1,0 +1,61 @@
+.carouselWrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.imageBanner {
+    width: 100%;
+    height: auto;
+}
+
+.cta {
+    position: absolute;
+    left: 323px;
+    top: 151px;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.ctaTitle {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.ctaText {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ctaButton {
+    padding: 14px 30px;
+    background-color: #FAA500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.arrows {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+.arrowsWrapper {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.leftArrow {
+    position: absolute;
+    left: 160px;
+    cursor: pointer;
+}
+
+.rightArrow {
+    position: absolute;
+    right: 160px;
+    cursor: pointer;
+}
