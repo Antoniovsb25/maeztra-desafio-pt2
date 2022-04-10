@@ -1,61 +1,33 @@
 .carouselWrapper {
-    position: relative;
-    width: 100%;
-    height: auto;
+  height: 600px;
 }
-
-.imageBanner {
-    width: 100%;
-    height: auto;
+.carouselContainer {
+  height: 100%;
+  background-image: url("../../../assets/imgs/carouselimg1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
 }
 
 .cta {
-    position: absolute;
-    left: 323px;
-    top: 151px;
-    z-index: 1;
-    color: #FFFFFF;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
 }
 
-.ctaTitle {
-    font-weight: 700;
-    font-size: 40px;
-}
-
-.ctaText {
-    font-weight: 400;
-    font-size: 20px;
+.cta * {
+    margin-left: 0;
 }
 
 .ctaButton {
-    padding: 14px 30px;
-    background-color: #FAA500;
-    border: none;
     border-radius: 5px;
-    cursor: pointer;
-    color: #FFFFFF;
-}
-
-.arrows {
-    position: absolute;
-    width: 100%;
-    top: 40%;
-}
-
-.arrowsWrapper {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-}
-
-.leftArrow {
-    position: absolute;
-    left: 160px;
-    cursor: pointer;
-}
-
-.rightArrow {
-    position: absolute;
-    right: 160px;
+    border: none;
+    background-color: #FAA500;
+    color: #FFF;
+    padding: 10px 20px 10px 20px;
     cursor: pointer;
 }
